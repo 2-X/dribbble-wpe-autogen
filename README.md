@@ -11,21 +11,18 @@ The following wallpapers were made using this script:
 - [All Day Long](./examples/all-day-long/index.html)
 - [A Metaphor for Being a Motion Designer](./examples/a-metaphor-for-being-a-motion-designer/index.html)
 - [Animalators](./examples/animalators/index.html)
-- [Another Dimension](./examples/another-dimension/index.html)
 - [Arnold with his Balloon](./examples/arnold-with-his-balloon/index.html)
 - [Canned Day](./examples/canned-day/index.html)
 - [Cannibals](./examples/cannibals/index.html)
 - [Cat Things](./examples/cat-things/index.html)
 - [Dog](./examples/dog/index.html)
 - [Don't Talk To Me Or My Son Ever Again](./examples/dont-talk-to-me-or-my-son-ever-again/index.html)
-- [Happy Birthday Pluto](./examples/happy-birthday-pluto/index.html)
 - [H E L L - 36 Days of Type](./examples/h-e-l-l-36-days-of-type/index.html)
 - [Intelligence Visual Exploration](./examples/intelligence-visual-exploration-for-ios-product/index.html)
 - [Jelly Man](./examples/jelly-man/index.html)
 - [Love Hurts](./examples/love-hurts/index.html)
 - [L for Light](./examples/l-for-light/index.html)
 - [Morning Mood](./examples/morning-mood/index.html)
-- [Nike Air Bubble](./examples/nike-air-bubble/index.html)
 
 
 Also all of my wallpapers published to the [Steam Community](https://steamcommunity.com/id/xkriizpy/myworkshopfiles/?appid=431960&sort=score&browsefilter=myfiles&view=imagewall) were made using this tool.
@@ -41,6 +38,7 @@ Also all of my wallpapers published to the [Steam Community](https://steamcommun
 7. Run `python3 create_backgrounds.py`
 8. Wait for it to download all wallpapers to the `downloads` folder.
 9. Add your wallpapers to Wallpaper Engine by clicking on Wallpaper Editor, creating a new wallpaper, and selecting the `index.html` file inside each folder in `downloads`.
+10. If you want, remove your unlikes by pasting the contents of [remove_dribble_likes.js](./remove_dribble_likes.js) in your browser's debug console.
 
 **Notes:**
 
