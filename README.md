@@ -1,4 +1,4 @@
-# Dribbble Wallpaper Autogenerator
+# Dribbble Wallpaper-Engine Autogenerator
 [Dribble](https://dribbble.com/) has some top-tier animators.
 
 I wrote a script that logs into your Dribbble account, downloads all of your liked animations, 
