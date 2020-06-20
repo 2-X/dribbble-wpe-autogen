@@ -38,7 +38,7 @@ Also all of my wallpapers published to the [Steam Community](https://steamcommun
 7. Run `python3 create_backgrounds.py`
 8. Wait for it to download all wallpapers to the `downloads` folder.
 9. Add your wallpapers to Wallpaper Engine by clicking on Wallpaper Editor, creating a new wallpaper, and selecting the `index.html` file inside each folder in `downloads`.
-10. If you want, remove your unlikes by pasting the contents of [remove_dribble_likes.js](./remove_dribble_likes.js) in your browser's debug console.
+10. If you want, automatically remove your likes by pasting the contents of [remove_dribble_likes.js](./remove_dribble_likes.js) in your browser's debug console.
 
 **Notes:**
 
