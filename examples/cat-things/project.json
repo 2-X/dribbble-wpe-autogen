@@ -1,0 +1,34 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Cat Things was made by Christoffer Klungerbo on Dribbble. Check them out at https://dribbble.com/motion_toffer",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"size" : 
+			{
+                "order" : 1,
+                "editable" : "true",
+				"max" : 2000,
+				"min" : 100,
+				"text" : "Size",
+				"type" : "slider",
+				"value" : 500
+			},
+			"schemecolor" : 
+			{
+				"order" : 2,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "#ffa427"
+			}
+		}
+	},
+	"preview" : "preview.png",
+	"tags" : [],
+	"title" : "Cat Things",
+	"type" : "web",
+	"visibility" : "public",
+	"workshopid" : null
+}

@@ -1,0 +1,34 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Love Hurts was made by Emanuele Colombo on Dribbble. Check them out at https://dribbble.com/emanuelecolombo",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"size" : 
+			{
+                "order" : 1,
+                "editable" : "true",
+				"max" : 2000,
+				"min" : 100,
+				"text" : "Size",
+				"type" : "slider",
+				"value" : 500
+			},
+			"schemecolor" : 
+			{
+				"order" : 2,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "#fbfbfb"
+			}
+		}
+	},
+	"preview" : "preview.png",
+	"tags" : [],
+	"title" : "Love Hurts",
+	"type" : "web",
+	"visibility" : "public",
+	"workshopid" : null
+}

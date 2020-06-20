@@ -1,0 +1,34 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "H E L L 👹 36 Days of Type was made by Mat Voyce on Dribbble. Check them out at https://dribbble.com/MatVoyce",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"size" : 
+			{
+                "order" : 1,
+                "editable" : "true",
+				"max" : 2000,
+				"min" : 100,
+				"text" : "Size",
+				"type" : "slider",
+				"value" : 500
+			},
+			"schemecolor" : 
+			{
+				"order" : 2,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "#ffffff"
+			}
+		}
+	},
+	"preview" : "preview.png",
+	"tags" : [],
+	"title" : "H E L L 👹 36 Days of Type",
+	"type" : "web",
+	"visibility" : "public",
+	"workshopid" : null
+}

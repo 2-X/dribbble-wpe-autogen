@@ -1,0 +1,34 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Don't talk to me or my son ever again was made by Jonas Mosesson on Dribbble. Check them out at https://dribbble.com/jonasmosesson",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"size" : 
+			{
+                "order" : 1,
+                "editable" : "true",
+				"max" : 2000,
+				"min" : 100,
+				"text" : "Size",
+				"type" : "slider",
+				"value" : 500
+			},
+			"schemecolor" : 
+			{
+				"order" : 2,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "#ffd7cf"
+			}
+		}
+	},
+	"preview" : "preview.png",
+	"tags" : [],
+	"title" : "Don't talk to me or my son ever again",
+	"type" : "web",
+	"visibility" : "public",
+	"workshopid" : null
+}

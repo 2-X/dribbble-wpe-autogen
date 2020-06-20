@@ -1,0 +1,34 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Happy birthday Pluto! 🐾🎂 was made by Tony Babel on Dribbble. Check them out at https://dribbble.com/TonyBabel",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"size" : 
+			{
+                "order" : 1,
+                "editable" : "true",
+				"max" : 2000,
+				"min" : 100,
+				"text" : "Size",
+				"type" : "slider",
+				"value" : 500
+			},
+			"schemecolor" : 
+			{
+				"order" : 2,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "#fdfef2"
+			}
+		}
+	},
+	"preview" : "preview.png",
+	"tags" : [],
+	"title" : "Happy birthday Pluto! 🐾🎂",
+	"type" : "web",
+	"visibility" : "public",
+	"workshopid" : null
+}

@@ -1,0 +1,34 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "A metaphor for being a Motion Designer was made by Tatiana Shchekina on Dribbble. Check them out at https://dribbble.com/TSmotion",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"size" : 
+			{
+                "order" : 1,
+                "editable" : "true",
+				"max" : 2000,
+				"min" : 100,
+				"text" : "Size",
+				"type" : "slider",
+				"value" : 500
+			},
+			"schemecolor" : 
+			{
+				"order" : 2,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "#efefef"
+			}
+		}
+	},
+	"preview" : "preview.png",
+	"tags" : [],
+	"title" : "A metaphor for being a Motion Designer",
+	"type" : "web",
+	"visibility" : "public",
+	"workshopid" : null
+}
