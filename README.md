@@ -9,22 +9,22 @@ All wallpapers have a slider that lets the user adjust the size of the GIF at th
 
 The following wallpapers were made using this script:
 
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/all-day-long/index.html" target="_blank">All Day Long</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/a-metaphor-for-being-a-motion-designer/index.html" target="_blank">A Metaphor for Being a Motion Designer</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/animalators/index.html" target="_blank">Animalators</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/arnold-with-his-balloon/index.html" target="_blank">Arnold with his Balloon</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/canned-day/index.html" target="_blank">Canned Day</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/cannibals/index.html" target="_blank">Cannibals</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/cat-things/index.html" target="_blank">Cat Things</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/dog/index.html" target="_blank">Dog</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/dont-talk-to-me-or-my-son-ever-again/index.html" target="_blank">Don't Talk To Me Or My Son Ever Again</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/h-e-l-l-36-days-of-type/index.html" target="_blank">H E L L - 36 Days of Type</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/intelligence-visual-exploration-for-ios-product/index.html" target="_blank">Intelligence Visual Exploration</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/jelly-man/index.html" target="_blank">Jelly Man</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/love-hurts/index.html" target="_blank">Love Hurts</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/l-for-light/index.html" target="_blank">L for Light</a>
-- <a href="https://htmlpreview.github.io/?https://github.com/kriispy/dribbble-wpe-autogen/blob/master/examples/morning-mood/index.html" target="_blank">Morning Mood</a>
-
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/all-day-long/index.html" target="_blank">All Day Long</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/a-metaphor-for-being-a-motion-designer/index.html" target="_blank">A Metaphor for Being a Motion Designer</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/animalators/index.html" target="_blank">Animalators</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/arnold-with-his-balloon/index.html" target="_blank">Arnold with his Balloon</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/canned-day/index.html" target="_blank">Canned Day</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/cannibals/index.html" target="_blank">Cannibals</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/cat-things/index.html" target="_blank">Cat Things</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/dog/index.html" target="_blank">Dog</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/dont-talk-to-me-or-my-son-ever-again/index.html" target="_blank">Don't Talk To Me Or My Son Ever Again</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/h-e-l-l-36-days-of-type/index.html" target="_blank">H E L L - 36 Days of Type</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/intelligence-visual-exploration-for-ios-product/index.html" target="_blank">Intelligence Visual Exploration</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/jelly-man/index.html" target="_blank">Jelly Man</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/love-hurts/index.html" target="_blank">Love Hurts</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/l-for-light/index.html" target="_blank">L for Light</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/morning-mood/index.html" target="_blank">Morning Mood</a>
+- <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/skillshare-class/index.html" target="_blank">Skillshare Class</a>
 
 Also all of my wallpapers published to the [Steam Community](https://steamcommunity.com/id/xkriizpy/myworkshopfiles/?appid=431960&sort=score&browsefilter=myfiles&view=imagewall) were made using this tool.
 
