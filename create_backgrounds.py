@@ -69,7 +69,7 @@ def download_dribbble_likes(username, password, output_folder=None, bwd=None):
 
             // is it a GIF or an MP4?
             let mediaSource;
-            let imageSource = e.querySelector("img").getAttribute("src").replace("_1x", "");
+            let imageSource = e.querySelector("img").getAttribute("src").replace("_1x", "").replace("_still", "");
             if (imageSource.includes(".png")) { // mp4
                 mediaSource = e.children[0].getAttribute("data-video-teaser-large").replace("_large_preview", "");
             } else { // gif
