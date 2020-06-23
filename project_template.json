@@ -15,10 +15,50 @@
 				"text" : "Size",
 				"type" : "slider",
 				"value" : 500
+            },
+            "crop-left" : 
+			{
+                "order" : 2,
+                "editable" : "true",
+				"max" : 100,
+				"min" : 0,
+				"text" : "Crop Left",
+				"type" : "slider",
+				"value" : 0
+			},
+            "crop-right" : 
+			{
+                "order" : 3,
+                "editable" : "true",
+				"max" : 100,
+				"min" : 0,
+				"text" : "Crop Right",
+				"type" : "slider",
+				"value" : 0
+			},
+            "crop-top" : 
+			{
+                "order" : 4,
+                "editable" : "true",
+				"max" : 100,
+				"min" : 0,
+				"text" : "Crop Top",
+				"type" : "slider",
+				"value" : 0
+			},
+            "crop-bottom" : 
+			{
+                "order" : 5,
+                "editable" : "true",
+				"max" : 100,
+				"min" : 0,
+				"text" : "Crop Bottom",
+				"type" : "slider",
+				"value" : 0
 			},
 			"schemecolor" : 
 			{
-				"order" : 2,
+				"order" : 6,
 				"text" : "ui_browse_properties_scheme_color",
 				"type" : "color",
 				"value" : "$COLOR"
