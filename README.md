@@ -26,7 +26,7 @@ The following wallpapers were made using this script:
 - <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/morning-mood/index.html" target="_blank">Morning Mood</a>
 - <a href="https://htmlpreview.github.io/?https://github.com/krisVIBES/dribbble-wpe-autogen/blob/master/examples/skillshare-class/index.html" target="_blank">Skillshare Class</a>
 
-Also all of my wallpapers published to the [Steam Community](https://steamcommunity.com/id/xkriizpy/myworkshopfiles/?appid=431960&sort=score&browsefilter=myfiles&view=imagewall) were made using this tool.
+Also all of my wallpapers published to the [Steam Community](https://steamcommunity.com/id/krisVIBES/myworkshopfiles/?appid=431960&sort=score&browsefilter=myfiles&view=imagewall) were made using this tool.
 
 
 **Instructions:**
