@@ -25,4 +25,5 @@ nohup.out
 .Python
 bin/
 downloads/
+env/
 creds.json

@@ -36,6 +36,20 @@ def chrome_version_linux(full_version=False):
     # convert bytes to string
     output = "".join(map(chr, output_bytes))
 
+    # if chromium-browser didn't work...
+    # try google-chrome
+    if output == "":
+        linux_chrome_version_cmd = [
+            "google-chrome",
+            "--version"
+        ]
+
+        # execute command and capture output
+        output_bytes, _ = Popen(linux_chrome_version_cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE).communicate()
+
+        # convert bytes to string
+        output = "".join(map(chr, output_bytes))
+
     # 'output' is in the form 'blah blah NUM.NUM.NUM.NUM blah'
     # so we are going to match for NUM.NUM.NUM.NUM and return the first NUM
     full_version_string = output and re.search(r"(\d+.\d+.\d+.\d+)", output).groups()[0]

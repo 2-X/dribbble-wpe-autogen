@@ -6,6 +6,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities# 
 from .download_utils import download_chromedriver
 from .webdriver_options import get_chrome_options
 
+
 class BaseWebDriver:
     def __init__(self, page_load_strategy="normal", **kwargs):
 
@@ -20,7 +21,11 @@ class BaseWebDriver:
         # "none" means that it doesn't wait at all
         desired_capabilities["pageLoadStrategy"] = page_load_strategy
 
-        self.driver = webdriver.Chrome(executable_path=self.chromedriver_filepath, options=get_chrome_options(**kwargs), desired_capabilities=desired_capabilities)
+        self.driver = webdriver.Chrome(
+            executable_path=self.chromedriver_filepath,
+            options=get_chrome_options(**kwargs),
+            desired_capabilities=desired_capabilities
+        )
 
         # change default loading timeout because sometimes it takes a while
         self.driver.set_page_load_timeout(120)
@@ -45,31 +50,19 @@ class BaseWebDriver:
     def reload(self):
         self.get(self.get_url(), force=True)
 
-    def check_403(self):
-        has_403_error = self.js("""return document.getElementsByTagName("h1")[0] && document.getElementsByTagName("h1")[0].innerText == "403 Forbidden"; """)
-        # reload the page if there's a 403 error
-        # after waiting 10 seconds
-        if has_403_error:
-            time.sleep(10)
-            self.reload()
-        
-    
-    def inject_find_react(self):
+    def inject_react_internal(self):
         self.js("""
-            FindReact = (dom) => {
-                const key = Object.keys(dom).find(key=>key.startsWith("__reactInternalInstance$"));
-                let domFiber = dom[key];
-                if (domFiber == null) return null;
-
-                while (true) {
-                    if (!domFiber.return) {
-                        return domFiber.stateNode
-                    }
-                    if (domFiber.return.stateNode && domFiber.return.stateNode.props) {
-                        return domFiber.return.stateNode
-                    }
-                    domFiber = domFiber.return
+            ReactInternal = (elem) => {
+                // Object.keys() doesn't like null and undefined
+                if (elem == null || elem == undefined) {
+                    return;
                 }
+            
+                // find it's react internal instance key
+                let key = Object.keys(elem).find(key => key.startsWith("__reactInternalInstance$"));
+            
+                // get the react internal instance
+                return elem[key];
             }
         """)
 
@@ -83,13 +76,11 @@ class BaseWebDriver:
 
     def send_keys(self, element, text, speed=0.08):
         """ Send keys at a determined rate. """
-        element.click()
-        if speed == 0:
-            element.send_keys(text)
-        else:
-            for char in text:
-                element.send_keys(char)
-                time.sleep(random.uniform(speed, speed+0.2))
+        # focus the element
+        self.js("arguments[0].click();", element)
+        for char in text:
+            element.send_keys(char)
+            time.sleep(random.uniform(speed, speed+0.2))
 
         # wait a little between typing in elements
         time.sleep(0.5)
@@ -135,6 +126,7 @@ class BaseWebDriver:
         while (not elem) and (total_time_elapsed < timeout):
             try:
                 elem = self.js(js_code, *args)
+            # BUG ignores invalid javascript code errors
             except Exception:
                 pass
             if not elem:
